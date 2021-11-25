@@ -1,0 +1,136 @@
+@media (max-width:1600px) and (min-width:1400px){
+    .SearchDiv input{
+        font-size: 1rem;
+        text-indent: 2.3rem;
+    }
+    .SearchSpan{
+       font-size: 1.2rem;
+    }
+    .navbtn{
+        width: 6rem;
+        height: 2.5rem;
+    }
+    .NLink{
+        width: 100px;
+        font-size: 1rem
+    }
+    .Reriblesize{
+        font-size: 1.4rem;
+    }
+    .NavAllLinks{
+        width: 80%;
+    }
+    
+
+}
+@media screen and (max-width: 1240px) {
+    .Ssubcol.third {
+      visibility: hidden;
+      clear: both;
+      width: 1px;
+      padding: 0%;
+    }
+    .Ssubcol.sixth {
+        visibility: hidden;
+        clear: both;
+        width: 1px;
+        padding: 0%;
+      
+      }
+      .Ssubcol.first{
+          width: 45%;
+      }
+      .Ssubcol.second{
+          width: 45%;
+      }
+      .Ssubcol.fourth{
+          margin-left: 0%;
+          width: 45%;
+      }
+      .Ssubcol.fifth{
+        width: 45%;
+
+
+      }
+
+    
+  }
+@media (max-width:1400px) and (min-width:1000px){
+    .HBidrow{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+       
+    }
+    .ExpAllCard2{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        
+       
+    }
+    .ExplorAlldiv{
+        /* margin-top: 1.5rem;
+          padding-left: 3rem;
+          display: flex;
+          overflow: hidden;
+          align-items: center; */
+          
+        
+          grid-template-columns: repeat(6,10%);
+          column-gap: 2rem;
+          
+          
+        
+      }
+    
+    .HotCollCards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        row-gap: 1rem;
+        column-gap: 1rem;
+    
+      }
+    .SearchDiv input{
+      
+       
+        font-size: .8rem;
+        text-indent: 2.1rem;
+    }
+    .SearchSpan{
+        
+        
+        font-size: 1rem;
+     }
+    .navbtn{
+        width: 5rem;
+        height: 2.5rem;
+    }
+    .NLink{
+        width: 90px;
+        font-size: 1rem
+    }
+    .NLink.comm{
+        margin-left: 10px;
+    }
+    .NavALLbutton{
+       margin-left: 20px;
+    }
+    .NavAllLinks{
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width:1100px) and (min-width:900px){
+    .HBidrow{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .ExpAllCard2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 2rem;
+       
+    }
+}

@@ -1,0 +1,86 @@
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, red,yellow);
+}
+
+.Main{
+    width: 100rem;
+    height: auto;
+    border: black solid 0.1rem;
+    margin: 0% auto;
+    text-align: center;
+    
+}
+.inputfield{
+    display: flex;
+   
+
+}
+.Sbutton{
+    margin-top: .2rem;
+}
+.btn{
+    text-align: center;
+
+    
+    width: 20rem; height:3rem;
+    font-size: 1.5rem;
+}
+.list{
+    width: 5rem;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.list ul{
+    list-style: none;
+    justify-content: space-around;
+}
+
+ul li{
+    display: inline-block;
+    padding: 1rem;
+    margin-right: 20rem;
+
+}
+.last{
+    margin: 0;
+    font-size: 3rem;
+
+
+}
+.last.one:hover{
+    color: cornsilk;
+    cursor: pointer;
+}
+.last.two:hover{
+    color: red;
+    cursor: pointer;
+   
+}
+h3{
+    font-size: 3rem;
+    margin-right: 2rems;
+}
+.total{
+
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }}

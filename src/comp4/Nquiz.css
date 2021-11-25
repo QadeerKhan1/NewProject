@@ -1,0 +1,194 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0%;
+}
+.line{
+    width: 100%;
+    border: rgb(238, 116, 34) .4rem solid;
+    display: block;
+    margin-bottom: 1rem;
+}
+.line.two{
+    width: 100%;
+    border: rgb(238, 116, 34) .4rem solid;
+    display: block;
+    margin-top: 1rem;
+}
+.Top_h1{
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: .14rem;
+    color: rgba(235, 101, 39, 0.884);
+}
+.form-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(./quiz1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.input{
+    padding-top: 2rem;
+}
+.selecter{
+    padding-top: 2rem;
+    
+}
+.form-select{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.Finpute{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+ label{
+     
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+.Mdbbtn{
+    font-size: 2rem;
+}
+.Mdbbtn:hover{
+    background: linear-gradient(
+        45deg,
+        rgba(29, 236, 197, 0.5),
+        rgba(91, 14, 214, 0.5) 100% );
+}
+.AQ_Logo{
+    font-weight: bold;
+    color: white;
+    width: 20rem;
+    margin: 0% auto;
+    text-align: center;
+    border: rgb(15, 32, 23) 1px solid;
+    background-image: linear-gradient(90deg,rgb(2, 49, 121),rgb(120, 29, 240));
+}
+.row{
+    text-align: center;
+    margin-top: 7rem;
+}
+.Content{
+    width: 90% ;
+    background-color: #0a10ce;
+background-image: linear-gradient(62deg, #0a10ce 0%, #870a96 100%);
+    border: rgb(41, 38, 4) solid 5px;
+    padding: 1rem;
+}
+.Answer ul{
+    list-style: none;
+}
+ul li{
+   display: inline-block;
+   width: 45rem;
+   padding: 1rem;
+}
+ul li button{
+    color: black;
+    font-weight: bold;
+    width: 30rem;
+    padding: 1rem 0%;
+    background-color: gainsboro;
+}
+ul li button:hover{
+    background-image: linear-gradient(to left,orange, rgb(16, 201, 214));
+}
+.A_Mdbbt{
+    width: 20rem;
+    height: 4rem;
+    margin: 0% 12rem;
+    font-size: 2rem;
+}
+.A_Mdbbt:hover{
+    background-color: rgb(25, 219, 203);
+}
+.select{
+    background-color: chartreuse;
+    color: white;
+    border: solid black 1px;
+}
+.wrong{
+    background-color:red;
+    color: white;
+    border: solid black 1px;
+}
+.LastPage{
+     text-align: center;
+    width: 60%;
+    height: 40rem;
+    border: black solid 2px;
+    background-image: linear-gradient(45deg , red ,purple);
+    margin-top: 5rem;
+}
+.LastPage h1{
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-top: 2rem;
+}
+.LastPage h3{
+    margin-top: 6rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+.LastPage h5{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.setcenter{
+    margin-top: 20rem;
+    margin-left: 44rem;
+}
+.loader{
+  width: 15rem;
+  height: 15rem;
+  font-size: 45px;
+}
+@media only screen and (max-width: 770px) {
+    .form-img{
+       width: 500px;
+       height: 244px;
+    }
+    .Answer{
+        width: 20rem;
+    }
+    ul li{
+        width: 15rem;
+     }
+     ul li button{
+        color: black;
+        font-weight: bold;
+        width: 15rem;
+        background-color: rgb(1, 65, 65);
+    }
+    .Answer_btn{
+        width: 4rem;
+        justify-content: center;
+    }
+    .Answer_btn button{
+        margin: auto ;
+        margin-top: 1rem;
+        width: 10rem;
+    }
+  }
